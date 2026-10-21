@@ -1,0 +1,17 @@
+position symbol
+0 report
+1 numbers
+2 values
+3 a
+4 0
+5 b
+6 c
+7 d
+8 e
+9 i
+10 total
+11 positivesum
+12 positivecount
+13 rejected
+14 5
+15 1

@@ -1,0 +1,42 @@
+filter report {
+    type numbers = list<int>;
+    let values : numbers = [];
+    let a : int = 0;
+    let b : int = 0;
+    let c : int = 0;
+    let d : int = 0;
+    let e : int = 0;
+    let i : int = 0;
+    let total : int = 0;
+    let positivesum : int = 0;
+    let positivecount : int = 0;
+    let rejected : int = 0;
+
+    read(a);
+    print(a);
+    read(b);
+    print(b);
+    read(c);
+    print(c);
+    read(d);
+    print(d);
+    read(e);
+    print(e);
+    values = [a, b, c, d, e];
+
+    while (i < 5) {
+        total = total + values[i];
+        if (values[i] > 0) {
+            positivesum = positivesum + values[i];
+            positivecount = positivecount + 1;
+        } else {
+            rejected = rejected + 1;
+        }
+        i = i + 1;
+    }
+
+    print(total);
+    print(positivesum);
+    print(positivecount);
+    print(rejected);
+}

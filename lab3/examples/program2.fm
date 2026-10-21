@@ -1,0 +1,16 @@
+filter above {
+    type numbers = list<int>;
+    let values : numbers = [2, -1, 4];
+    let limit : int = 0;
+    let i : int = 0;
+    let total : int = 0;
+
+    read(limit);
+    while (i < 3) {
+        if (values[i] > limit) {
+            total = total + values[i];
+        }
+        i = i + 1;
+    }
+    print(total);
+}

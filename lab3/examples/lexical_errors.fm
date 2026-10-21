@@ -1,0 +1,6 @@
+filter broken {
+    let Upper : int = 01;
+    let bad_name : int = 1.5;
+    let x : int = 12abc;
+    print(x @ 2);
+}

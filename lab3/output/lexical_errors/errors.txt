@@ -1,0 +1,5 @@
+Line 2, column 9: invalid token 'Upper'
+Line 3, column 9: invalid token 'bad_name'
+Line 3, column 26: invalid token '1.5'
+Line 4, column 19: invalid token '12abc'
+Line 5, column 13: invalid token '@'

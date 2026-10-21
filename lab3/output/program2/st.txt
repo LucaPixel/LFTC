@@ -1,0 +1,13 @@
+position symbol
+0 above
+1 numbers
+2 values
+3 2
+4 -1
+5 4
+6 limit
+7 0
+8 i
+9 total
+10 3
+11 1

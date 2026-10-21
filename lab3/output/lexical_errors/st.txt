@@ -1,0 +1,5 @@
+position symbol
+0 broken
+1 01
+2 x
+3 2
